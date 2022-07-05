@@ -162,9 +162,14 @@ params:
 
       - job: "Junior Software Developer"
         company: "APD Communications"
-        companyUrl: "https://example.com"
+        companyUrl: "http://web.archive.org/web/20161013235351/http://www.apdcomms.com/"
         date: "June 2015 - Oct 2016"
+        featuredLink:
+          enable: true
+          name: "Video demonstration"
+          url: "http://web.archive.org/web/20170112173606im_/http://www.apdcomms.com/videos/Artemis%20Demo1.mp4"
         content: |
+          I developed the map client which showed the live location of drivers, vehicle reports, and dashboard widgets.
           ...
 
       - job: "Student Software Developer"
@@ -172,6 +177,7 @@ params:
         companyUrl: "http://web.archive.org/web/20140516190126/https://www.seedsoftware.co.uk/"
         date: "Sep 2014 - Jan 2015"
         content: |
+          I maintened an existing website for the Alvis Register, and developed an application to help them identify and merge duplicate car records.
           ...
 
   # Education
