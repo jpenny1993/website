@@ -86,13 +86,12 @@ params:
       disableAchievements: true
   #     disableContact: true
 
-  # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "John."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    intro: Hi, my name is
+    title: John
+    subtitle: I build web apps etc
+    content: I'm a Microsoft Certified Solutions Developer who chases the curve.
     image: /images/hero.svg
     button:
       enable: false
@@ -102,40 +101,42 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/jpenny1993
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/jpenny93
         - icon: fab fa-twitter
           url: https://twitter.com/jpenny1993
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
-  # About
   about:
     enable: true
     title: "About Me"
     image: "/images/me.png"
     content: |
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
-      What matters to me?
-      - Code Quality
-      - Code Coverage
-      - Performance
-      - Scalability
+      I'm a passionate full stack .Net software developer with 7 years of industrial experience.
+      My aim is to produce quality software, that is well documented, maintainable, and is horizontally scalable.
 
-    skills:
-      enable: true
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "Bicep"
-        - ".NET 6"
-        - "ASP.NET Core"
-        - "T-SQL"
-        - "Angular"
-        - "VueJs"
-        - "Node"
-        - "Unity3D"
+      I am proud to have contributed to production software used by UK police forces in North Yorkshire,
+      Thames Valley, and Dubai.
 
-  # Experience
+      I have also collaborated on multiple integration systems for house
+      builders and utility companies across the UK.
+
+  skills:
+    enable: true
+    title: "Here are a few technologies I've been working with recently:"
+    items:
+      - "Bicep"
+      - "Terraform"
+      - "ASP.NET Core"
+      - "ASP.NET MVC"
+      - "T-SQL"
+      - "Angular"
+      - "Vue.js"
+      - "Node"
+      - "Unity3D"
+
   experience:
     enable: true
     items:
@@ -147,39 +148,90 @@ params:
           enable: true
           content: Ligentia is a global freight company that focuses on having a good work/life balance.
         content: |
-          I'm a member of the technical debt team, my job is to redesign and build applications as micro-services in Azure.
-          I also write automation scripts for both infrastructure and application deployment.
-          Ligentia is a global freight company that focuses on having a good work/life balance, and so far it's working out okay.
+          I'm a member of the technical debt team, my job is to redesign and build applications as microservices in Azure.
+
+          I write automation scripts for both infrastructure and application deployment.
+          I also spend a lot of time researching and documenting existing applications.
 
       - job: "Consultant Software Developer"
         company: "Audacia"
         companyUrl: "https://audacia.co.uk"
-        date: "Oct 2016 - Jan 2022"
-        # date: "Feb 2020 - Jan 2022" # Senior Support Engineer (Techbuyer|Gymfinity Kids|Specialist Marine Consultants|Story Homes|Bellway|2M|HSSMI & DETC|E-Car|Persimmon Homes|Innovative Trials)
-        # date: "Jan 2017 - Feb 2020" # Lead Developer (Aptus Utilities)
-        # date: "Oct 2016 - Jan 2017" # Software Developer (Masta|Story Homes|Huxloe)
+        date: "Oct 2016 - Dec 2021"
+        # date: "Feb 2020 - Dec 2021"
+        # - role: Senior Support Engineer
+        #   companies:
+        #   - Techbuyer:
+        #     Functionality: Stock management
+        #     Integrations: Scheduled FTP + SFTP uploads
+        #     Technologies: ASP.Net Core, Angular
+        #   - Gymfinity Kids:
+        #     Functionality: Gym class management, bookings, purchases, discounts
+        #     Integrations: Adyen
+        #     Technologies: ASP.Net Core, Angular
+        #   - Specialist Marine Consultants:
+        #     Functionality: Windturbine maintenence planning, live ocean maps
+        #     Technologies: ASP.Net Core, Angular
+        #   - Story Homes:
+        #     Functionality: House builders + sales
+        #     Integrations: COINS, Salesforce
+        #     Technologies: ASP.NET MVC, Vue.js
+        #   - Bellway:
+        #     Functionality: House builders
+        #     Integrations: COINS
+        #     Technologies: ASP.Net Core, Angular
+        #   - 2M:
+        #     Functionality: Chemical sales
+        #     Technologies: ASP.Net Core
+        #   - HSSMI & DETC:
+        #     Functionality: House builders
+        #     Technologies: ASP.Net Core, Angular
+        #   - E-Car:
+        #     Functionality: Car rental
+        #     Technogies: ASP.NET MVC, Angular.js, cordova
+        #   - Persimmon Homes:
+        #     Functionality: Community enquiries portal
+        #     Technologies: Umbraco
+        #   - Innovative Trials:
+        #     Technologies: ASP.Net Core, Angular
+        # date: "Jan 2017 - Feb 2020"
+        # - role: Lead Developer
+        #   companies:
+        #   - Aptus Utilities:
+        #     Functionality: Asset Management, Tendering, Invoicing, Stock management
+        #     Technologies:
+        #     - ASP.Net MVC, Vue.js
+        #     - ASP.Net Core API, Angular, Electron
+        # date: "Oct 2016 - Jan 2017"
+        # - role: Software Developer
+        #   companies:
+        #   - PPM Ltd:
+        #     Functionality: Residential issue management
+        #     Technologies: ASP.Net Web API, Xamarin Forms
+        #   - Masta:
+        #     Functionality: Appointment booking, Medical/vaccine treatments
+        #     Technologies: ASP.Net Web MVC, Knockout.js
+        #   - Story Homes:
+        #     Functionality: House builder, Sales platform
+        #     Technologies: ASP.Net Web MVC, Knockout.js
+        #   - Huxloe:
+        #     Functionality: Package delivery management
+        #     Technologies: ASP.Net Web MVC, Knockout.js
         info:
           enable: true
           content: I changed roles 3 times during my employment in Audacia.
         content: |
-          Consultant Developer
-          Oct 2016 - Feb 2020 · 3 yrs 5 mos
-          Audacia is a small company full of talented friendly people who are passionate about producing quality software products.
-          During my time at Audacia I have worked for on projects that deal with;
-          Residential issue management, Stock management, Medical treatments, Developing and selling houses (new builds), Asset Management, Tendering and Invoicing.
-          Some of the technologies I have used achieve my goals;
-          ASP.Net Core, Entity Framework, Angular 6, Xamarin, Electron.
-          ---
-          Senior Devops & Production Support Engineer
-          Feb 2020 - Dec 2021 · 1 yr 11 mos
-          - Leading the Production Support team at Audacia for 15 production systems with 4 hour SLA’s and 97% availability and uptime that covers over 1000 users per system.
-          - Technical delivery consultant and customer liaison for incoming support work. 
-          - Technical lead for internal projects and libraries.
-          - Migrating all legacy applications to .NET 6 & Angular 12.
-          - Security officer (ISO27001)
-          - Mentoring developers at all levels.
-          - Identify design patterns, frameworks, & processes that could be altered to improve the company on a macro scale.
-          - Discuss and agree on best practices for development teams.
+          I was a Software Developer from Oct 2016 until Jan 2017.
+          I worked for 4 companies developing ASP.NET MVC applications that ranged from residential issue management, medical treatments, building and selling houses, to delivering packages.
+
+          I was a Lead Developer from Jan 2017 until Feb 2020.
+          During this time I lead a team of developers to maintain and develop new features for an existing ASP.Net MVC website.
+          We built an angular electron tablet app for accessing safety documents, and completing vehicle checklists.
+
+          I was a Senior Devops & Production Support Engineer from Feb 2020 until Dec 2021.
+          I taught a team of graduates how to supporting and develop new features for both new and legacy production systems.
+          We had around 15 production systems with 4 hour SLA’s and 97% availability and uptime that covers over 1000 users per system.
+          We covered a wide selection of technologies ranging from ASP.Net Web Forms, to ASP.Net Core.
+          Nearing the end of my time at Audacia I made a major push to upgrade all systems from as low as Angular 2 and .Net Framework 4.5 to the lastest available platforms.
 
       - job: "Software Developer"
         company: "APD Communications"
@@ -190,13 +242,17 @@ params:
           name: "Video demonstration"
           url: "http://web.archive.org/web/20170112173606im_/http://www.apdcomms.com/videos/Artemis%20Demo1.mp4"
         content: |
-          I developed the map client which showed the live location of drivers, vehicle reports, and dashboard widgets.
-          ...
-          Artemis is an advanced resource management system to help improve driver behaviour, increase fuel efficiency & monitor resource utilisation. 
-          During my time at here I have helped to redesign the ArtemisHub website to be mobile friendly. 
-          Most of my time has been spent developing AngularJS applications to improve the user’s experience, such as; the dashboard, map client & a graphical interface for our reports server. I also wrote our map API & a loadtester for our gateway server. Writing the loadtester was particularly challenging due to the fact that no legacy documentation existed for the gateway protocol, this meant that I had to reverse engineer the protocol from legacy Delphi code. 
-          My favourite sub-project was spending a day learning F# and suave.io. Then using that knowledge to write a new secure gateway server with a web management API. I managed to nearly fully complete the project. I'd managed to implement everything except TLS encryption, and then management moved me to a different team.
-          As of May 2016 I am now an Aspire team member. Aspire is a contact management system for the police. I was rushed to this team because of sales reasons. At the moment I am writing an XMPP client to be shared between two products Cortex & Aspire. This will be so that dispatchers are able to contact call responders from inside our applications without having to use a third party.
+          Most of my time has been spent developing AngularJS applications to improve the user's experience, such as; 
+          - the dashboard & dashboard widgets
+          - map client which displays a live view of vehicles 
+          - and a graphical user interface for the SSRS reports server.
+
+          I also wrote a loadtester for our gateway server. The gateway server was the endpoint service that all vehicles on the road would contact.
+          Writing the loadtester was particularly challenging due to the fact that no legacy documentation existed for the gateway protocol, this meant that I had to reverse engineer the protocol from old Delphi code.
+          My favourite sub-project was spending a day learning F# and suave.io. Then using that knowledge to write a new secure gateway server with a web management API.
+
+          From May 2016 I became an Aspire team member. I developed an XMPP chat client to be shared between two products Cortex & Aspire. This will be so that dispatchers are able to contact call responders from inside our applications without having to use a third party.
+          At the time there wasn't a library available that implemented the MUC feature, so I implemented this for the open source project before handing development back to the maintainer.
 
       - job: "Student Software Developer"
         company: "Seed Software"
@@ -212,15 +268,16 @@ params:
         content: |
           This was a part time position as part of the 08911 Commercial Development module at the University of Hull.
           Masters students were split into teams and given projects to manage and develop solutions to support real world customers.
+
           I was the Lead Developer for the **Alvis Register** project, our goal was to develop an application that could help identify and merge duplicate car records in their database, while also maintaining an existing website for the customer.
           We used agile development techniques such as SCRUM to help manage our project.
+
           My roles included:
           - leading customer meetings
           - building requirements
           - WPF application development
           - maintaining an ASP.Net MVC website
 
-  # Education
   education:
     enable: true
     # index: true
@@ -230,27 +287,30 @@ params:
           name: "University of Hull"
           url: "https://www.hull.ac.uk"
         date: "Sept 2010 - June 2015"
-        GPA: "1st class degree"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        GPA: "80 out of 100"
+        featuredLink:
+          enable: true
+          name: "Adafruit trinket goggles"
+          url: "https://www.youtube.com/watch?v=MKQfDdQyHPc"
+        content: |
+          I graduated from the University of Hull with a 1st class degree.
+
+          While at university I was very interested in electronics, during my free time I built and programmed a set of LED goggles for my mad scientise halloween costume.
 
       - title: "Secondary School"
         school:
           name: "St Bede's Catholic Grammar School, Bradford"
           url: "https://sbsj.co.uk"
         date: "Sept 2003 - July 2010"
-        GPA: "3.9 out of 5.0"
+        GPA: "BCC"
         content: |
-          - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        # featuredLink:
-        #   enable: true
-        #   name: "My academic record"
-        #   url: "https://example.com"
+          A2
+            - Applied ICT
+            - Geography
+            - Mathematics
+          AS
+            - Physics
 
-  # Achievements
   achievements:
     enable: false
     items:
@@ -258,55 +318,41 @@ params:
         content: I solved all problems with optimal solution.
         url: https://example.com
 
-  # Projects
   projects:
     enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        # image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: RTSP Viewer
+        content: Provides the ability to watch an RTP stream from my security camera without requiring VLC media player.
+        image: https://github.com/jpenny1993/RtspViewer/raw/main/img/demo.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        # image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "ffmpeg"
+          - "Windows Forms"
+          # - "UWP" TBA
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/jpenny1993/RtspViewer
 
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        # image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: Gadgeteer Smart Sensor
+        content: The beginnings of a smart home device, and an attempt to relive my university dissertation.
+        image: https://github.com/jpenny1993/GT.NetworkCamera/raw/main/img/hardware.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Gadgeteer"
+          - ".Net Micro Framework"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/jpenny1993/GT.NetworkCamera
 
-  # Contact
+      - title: Sharp.Xmpp
+        content: I implemented multi-user chat rooms for a C# XMPP client.
+        featured:
+          name: View project
+          link: https://github.com/pgstath/Sharp.Xmpp
+        badges:
+          - "C#"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jpenny1993/Sharp.Xmpp
+
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
