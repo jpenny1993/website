@@ -150,7 +150,6 @@ params:
         content: |
           I'm a member of the technical debt team, my job is to redesign and build applications as micro-services in Azure.
           I also write automation scripts for both infrastructure and application deployment.
-
           Ligentia is a global freight company that focuses on having a good work/life balance, and so far it's working out okay.
 
       - job: "Consultant Software Developer"
@@ -166,20 +165,14 @@ params:
         content: |
         Consultant Developer
         Oct 2016 - Feb 2020 · 3 yrs 5 mos
-
         Audacia is a small company full of talented friendly people who are passionate about producing quality software products.
-
         During my time at Audacia I have worked for on projects that deal with;
         Residential issue management, Stock management, Medical treatments, Developing and selling houses (new builds), Asset Management, Tendering and Invoicing.
-
         Some of the technologies I have used achieve my goals;
         ASP.Net Core, Entity Framework, Angular 6, Xamarin, Electron.
-
         ---
-
         Senior Devops & Production Support Engineer
         Feb 2020 - Dec 2021 · 1 yr 11 mos
-
         - Leading the Production Support team at Audacia for 15 production systems with 4 hour SLA’s and 97% availability and uptime that covers over 1000 users per system.
         - Technical delivery consultant and customer liaison for incoming support work. 
         - Technical lead for internal projects and libraries.
@@ -200,14 +193,10 @@ params:
         content: |
           I developed the map client which showed the live location of drivers, vehicle reports, and dashboard widgets.
           ...
-
           Artemis is an advanced resource management system to help improve driver behaviour, increase fuel efficiency & monitor resource utilisation. 
-
           During my time at here I have helped to redesign the ArtemisHub website to be mobile friendly. 
           Most of my time has been spent developing AngularJS applications to improve the user’s experience, such as; the dashboard, map client & a graphical interface for our reports server. I also wrote our map API & a loadtester for our gateway server. Writing the loadtester was particularly challenging due to the fact that no legacy documentation existed for the gateway protocol, this meant that I had to reverse engineer the protocol from legacy Delphi code. 
-
           My favourite sub-project was spending a day learning F# and suave.io. Then using that knowledge to write a new secure gateway server with a web management API. I managed to nearly fully complete the project. I'd managed to implement everything except TLS encryption, and then management moved me to a different team.
-
           As of May 2016 I am now an Aspire team member. Aspire is a contact management system for the police. I was rushed to this team because of sales reasons. At the moment I am writing an XMPP client to be shared between two products Cortex & Aspire. This will be so that dispatchers are able to contact call responders from inside our applications without having to use a third party.
 
       - job: "Student Software Developer"
@@ -224,10 +213,8 @@ params:
         content: |
           This was a part time position as part of the 08911 Commercial Development module at the University of Hull.
           Masters students were split into teams and given projects to manage and develop solutions to support real world customers.
-
           I was the Lead Developer for the **Alvis Register** project, our goal was to develop an application that could help identify and merge duplicate car records in their database, while also maintaining an existing website for the customer.
           We used agile development techniques such as SCRUM to help manage our project.
-
           My roles included:
           - leading customer meetings
           - building requirements
