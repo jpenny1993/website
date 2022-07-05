@@ -41,7 +41,7 @@ Menus:
 
 params:
   title: "John Penny | .NET Web Developer"
-  description: Text about my cool site
+  description: Microsoft Certified Solutions Developer
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -113,10 +113,9 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.png"
-    content: |-
+    content: |
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
       I am currently working on a project that will be used to help people find the best way to get around the city.
-      
       What matters to me?
       - Code Quality
       - Code Coverage
@@ -163,24 +162,24 @@ params:
           enable: true
           content: I changed roles 3 times during my employment in Audacia.
         content: |
-        Consultant Developer
-        Oct 2016 - Feb 2020 · 3 yrs 5 mos
-        Audacia is a small company full of talented friendly people who are passionate about producing quality software products.
-        During my time at Audacia I have worked for on projects that deal with;
-        Residential issue management, Stock management, Medical treatments, Developing and selling houses (new builds), Asset Management, Tendering and Invoicing.
-        Some of the technologies I have used achieve my goals;
-        ASP.Net Core, Entity Framework, Angular 6, Xamarin, Electron.
-        ---
-        Senior Devops & Production Support Engineer
-        Feb 2020 - Dec 2021 · 1 yr 11 mos
-        - Leading the Production Support team at Audacia for 15 production systems with 4 hour SLA’s and 97% availability and uptime that covers over 1000 users per system.
-        - Technical delivery consultant and customer liaison for incoming support work. 
-        - Technical lead for internal projects and libraries.
-        - Migrating all legacy applications to .NET 6 & Angular 12.
-        - Security officer (ISO27001)
-        - Mentoring developers at all levels.
-        - Identify design patterns, frameworks, & processes that could be altered to improve the company on a macro scale.
-        - Discuss and agree on best practices for development teams.
+          Consultant Developer
+          Oct 2016 - Feb 2020 · 3 yrs 5 mos
+          Audacia is a small company full of talented friendly people who are passionate about producing quality software products.
+          During my time at Audacia I have worked for on projects that deal with;
+          Residential issue management, Stock management, Medical treatments, Developing and selling houses (new builds), Asset Management, Tendering and Invoicing.
+          Some of the technologies I have used achieve my goals;
+          ASP.Net Core, Entity Framework, Angular 6, Xamarin, Electron.
+          ---
+          Senior Devops & Production Support Engineer
+          Feb 2020 - Dec 2021 · 1 yr 11 mos
+          - Leading the Production Support team at Audacia for 15 production systems with 4 hour SLA’s and 97% availability and uptime that covers over 1000 users per system.
+          - Technical delivery consultant and customer liaison for incoming support work. 
+          - Technical lead for internal projects and libraries.
+          - Migrating all legacy applications to .NET 6 & Angular 12.
+          - Security officer (ISO27001)
+          - Mentoring developers at all levels.
+          - Identify design patterns, frameworks, & processes that could be altered to improve the company on a macro scale.
+          - Discuss and agree on best practices for development teams.
 
       - job: "Software Developer"
         company: "APD Communications"
