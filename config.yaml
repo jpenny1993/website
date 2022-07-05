@@ -90,8 +90,8 @@ params:
     enable: true
     intro: Hi, my name is
     title: John
-    subtitle: I build distributed web applications
-    content: I'm a Microsoft Certified Solutions Developer who chases the curve.
+    subtitle: I build web applications
+    content: A Microsoft Certified Solutions Developer who chases the curve.
     image: /images/hero.svg
     button:
       enable: false
