@@ -40,7 +40,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "John Penny | .NET Web Developer"
+  title: "John Penny | Web Developer"
   description: Microsoft Certified Solutions Developer
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -90,7 +90,7 @@ params:
     enable: true
     intro: Hi, my name is
     title: John
-    subtitle: I build web apps etc
+    subtitle: I build distributed web applications
     content: I'm a Microsoft Certified Solutions Developer who chases the curve.
     image: /images/hero.svg
     button:
@@ -308,6 +308,7 @@ params:
             - Applied ICT
             - Geography
             - Mathematics
+
           AS
             - Physics
 
@@ -325,6 +326,7 @@ params:
         content: Provides the ability to watch an RTP stream from my security camera without requiring VLC media player.
         image: https://github.com/jpenny1993/RtspViewer/raw/main/img/demo.png
         badges:
+          - "C#"
           - "ffmpeg"
           - "Windows Forms"
           # - "UWP" TBA
@@ -336,6 +338,7 @@ params:
         content: The beginnings of a smart home device, and an attempt to relive my university dissertation.
         image: https://github.com/jpenny1993/GT.NetworkCamera/raw/main/img/hardware.png
         badges:
+          - "C#"
           - "Gadgeteer"
           - ".Net Micro Framework"
         links:
@@ -344,6 +347,7 @@ params:
 
       - title: Sharp.Xmpp
         content: I implemented multi-user chat rooms for a C# XMPP client.
+        image: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/XMPP_logo.svg/330px-XMPP_logo.svg.png
         featured:
           name: View project
           link: https://github.com/pgstath/Sharp.Xmpp
