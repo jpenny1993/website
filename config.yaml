@@ -91,7 +91,7 @@ params:
     intro: Hi, my name is
     title: John
     subtitle: I build web applications
-    content: A Microsoft Certified Solutions Developer who chases the curve.
+    content: A Microsoft Certified Solutions Developer who chases the curve
     image: /images/hero.png
     button:
       enable: false
