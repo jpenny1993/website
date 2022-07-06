@@ -160,39 +160,42 @@ params:
         # date: "Feb 2020 - Dec 2021"
         # - role: Senior Support Engineer
         #   companies:
+        #   - Solus:
+        #     Functionality: Car repairs, job scheduling, driver & chase tracking
+        #     Technologies: ASP.Net Core, Angular, T-SQL
         #   - Techbuyer:
         #     Functionality: Stock management
         #     Integrations: Scheduled FTP + SFTP uploads
-        #     Technologies: ASP.Net Core, Angular
+        #     Technologies: ASP.Net Core, Angular, T-SQL
         #   - Gymfinity Kids:
         #     Functionality: Gym class management, bookings, purchases, discounts
         #     Integrations: Adyen
-        #     Technologies: ASP.Net Core, Angular
+        #     Technologies: ASP.Net Core, Angular, T-SQL
         #   - Specialist Marine Consultants:
         #     Functionality: Windturbine maintenence planning, live ocean maps
-        #     Technologies: ASP.Net Core, Angular
+        #     Technologies: ASP.Net Core, Angular, T-SQL
         #   - Story Homes:
         #     Functionality: House builders + sales
         #     Integrations: COINS, Salesforce
-        #     Technologies: ASP.NET MVC, Vue.js
+        #     Technologies: ASP.NET MVC, Vue.js, T-SQL, SOQL
         #   - Bellway:
         #     Functionality: House builders
         #     Integrations: COINS
-        #     Technologies: ASP.Net Core, Angular
+        #     Technologies: ASP.Net Core, Angular, T-SQL
         #   - 2M:
         #     Functionality: Chemical sales
-        #     Technologies: ASP.Net Core
+        #     Technologies: ASP.Net Core, T-SQL
         #   - HSSMI & DETC:
         #     Functionality: House builders
-        #     Technologies: ASP.Net Core, Angular
+        #     Technologies: ASP.Net Core, Angular, T-SQL
         #   - E-Car:
         #     Functionality: Car rental
-        #     Technogies: ASP.NET MVC, Angular.js, cordova
+        #     Technogies: ASP.NET MVC, Angular.js, cordova, T-SQL
         #   - Persimmon Homes:
         #     Functionality: Community enquiries portal
         #     Technologies: Umbraco
         #   - Innovative Trials:
-        #     Technologies: ASP.Net Core, Angular
+        #     Technologies: ASP.Net Core, Angular, T-SQL
         # date: "Jan 2017 - Feb 2020"
         # - role: Lead Developer
         #   companies:
@@ -212,7 +215,7 @@ params:
         #     Technologies: ASP.Net Web MVC, Knockout.js
         #   - Story Homes:
         #     Functionality: House builder, Sales platform
-        #     Technologies: ASP.Net Web MVC, Knockout.js
+        #     Technologies: ASP.Net Web MVC, Knockout.js, T-SQL, SOQL
         #   - Huxloe:
         #     Functionality: Package delivery management
         #     Technologies: ASP.Net Web MVC, Knockout.js
